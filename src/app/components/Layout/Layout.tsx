@@ -6,7 +6,9 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Header />
-      {children}
+        <main className="mt-[88px]">
+          {children}
+        </main>
       <Footer />
     </>
   );
